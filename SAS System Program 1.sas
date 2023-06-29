@@ -1,4 +1,4 @@
-proc means data=sashelp.class ;
+proc means data=sashelp.class nway ;
   class sex;
   var weight height; 
 run;
