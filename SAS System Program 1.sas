@@ -1,4 +1,4 @@
-proc means data=sashelp.class nway missing n median min max;
+proc means data=sashelp.class;
   class sex;
   var weight height; 
 run;
